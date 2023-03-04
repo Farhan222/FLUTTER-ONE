@@ -1,38 +1,10 @@
+// Q3
+
 void main(){
+  num ser=3;
+  num ser2=0;
+  for (ser2=0; ser2<10; ser2++){
+    print(ser*ser2);
 
-    ///// Q1
-List names=["Farhan","Arham","Zaib","Zain"];
- print(names);  
-
-/// Q2
-List days=[];
-  days.add("monday");
-  days.add("Tuesday");
-  days.add("Wednesday");
-  days.add("Thusday");
-  days.add("Friday");
-  days.add("Saturday");
-  days.add("Sunday");
-  
-  print(days);
-
-//// Q3
-List days1=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-  days1.remove("Monday");
-    days1.remove("Tuesday");
-    days1.remove("Wednesday");
-    days1.remove("Thursday");
-    days1.remove("Friday");
-    days1.remove("Saturday");
-    days1.remove("Sunday");
-  
-  print(days1);
-
-//// Q8 
-Map world={
-        "Pakistan":"Islamabad,Rupee,Urdu",
-        "India":"New Dehli,Rupee,Hindi",
-        "China":"Beijing,Yuan",};
-  print(world);
-  
+  }
 }
